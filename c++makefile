@@ -1,0 +1,10 @@
+a.out: Driver.o Player.o
+	g++ Player.o Driver.o
+Driver.o: Driver.cpp
+	g++ -c Driver.cpp
+Player.o: Player.cpp Player.h
+	g++ -c Player.cpp
+run: a.out
+	./a.out
+
+ 

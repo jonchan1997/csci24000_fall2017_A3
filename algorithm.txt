@@ -1,0 +1,10 @@
+This program has multiple components so I am going to list off my expectations for each part.
+
+Driver.cpp: show menu and allow player control
+Player.cpp: store class functions
+Player.h: store class
+
+Player.java: store class
+Driver.java: stor menu
+
+makefile
